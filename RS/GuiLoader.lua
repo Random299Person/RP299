@@ -7,5 +7,3 @@ end
 GUI.Response = function(typeOfResponse, data)
   
 end
-
-return module
