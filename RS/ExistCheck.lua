@@ -8,3 +8,8 @@ for _, a in ipairs(SupportedGames) do
     break
   end
 end
+if Supported then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Random299Person/RP299/main/RS/Scripts/" .. game.GameId .. ".lua", true))()
+else
+  
+end
