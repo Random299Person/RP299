@@ -9,17 +9,6 @@ RS_Title.BackgroundTransparency = 1
 RS_Title.Position = UDim2.new(0.5, 0, 1.125, 0)
 RS_Title.Size = UDim2.new(1, 0, 0.25, 0)
 RS_Title.Image = "http://www.roblox.com/asset/?id=6399111562"
-
-local GUI = {}
-
-GUI.CreateWindow = function(codename, size, position, title)
-  print("Testing 2")
-end
-
-GUI.Response = function(typeOfResponse, data)
-  
-end
-
 game.TweenService:Create(RS_Title, TweenInfo.new(1, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Position = UDim2.new(0.5, 0, 0.5, 0)}):Play()
 wait(4)
 game.TweenService:Create(RS_Title, TweenInfo.new(1, Enum.EasingStyle.Back, Enum.EasingDirection.In), {Position = UDim2.new(0.5, 0, 1.125, 0)}):Play()
